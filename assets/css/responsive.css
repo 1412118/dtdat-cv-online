@@ -1,0 +1,122 @@
+@media (max-width: 992px) and (min-width: 768px){
+	.gen-info h3{
+    	font-size: 16px;
+    	margin-top: 0.6em;
+	}
+
+	.gen-info h4{
+    	font-size: 14px;
+	}
+
+	.btn-download{
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 992px){
+	.navbar-collapse {
+    	margin-left: -16px;
+    	margin-right: -16px;
+    	background: rgb(232, 232, 232);
+    }
+}
+
+@media (max-width: 767px){
+	.gen-info, .avatar{
+		text-align: center;
+	}
+
+	.avatar{
+		margin-top: 1.5em;
+	}
+
+	.avatar-img{
+		max-width: 60%;
+	}
+
+
+	.gen-edu .edu-timeline{
+		height: 140px;
+		width: 140px;
+	  	left: -70px;
+	}
+
+	.gen-edu .edu-timeline h2{
+		font-size: 1.5em;
+	}
+
+	.edu-content .gen-edu::before{
+		width: 150px;
+		height: 150px;
+		left: -75px;
+	}
+
+	.gen-edu .edu-things{
+		left: 5em;
+	}
+
+	.edu-content .gen-edu{
+		height: 200px;
+	}
+
+	.gen-edu .edu-timeline span {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 576px){
+	.icon-wrapper::before, .icon-wrapper::after {
+    	width: 25vw;
+	}
+	.about-me-container .summary{
+		margin: 1.5em 2em;
+	}
+
+	.timeline-exp h2{
+		font-size: 1.5em;
+	}
+
+	.timeline-exp h4{
+		font-size: 1em;
+	}
+
+	.gen-exp .timeline-exp{
+		margin: 1em 2em 1em 0;
+	}
+
+	.exp-content ul{
+		padding: 2em 0 2em 2em;
+	}
+
+	.gen-exp .timeline-exp .circle {
+		right: -47px;
+	}
+
+	.gen-edu .edu-timeline{
+		height: 100px;
+		width: 100px;
+	  	left: -50px;
+	}
+
+	.gen-edu .edu-timeline h2{
+		font-size: 1em;
+	}
+
+	.edu-content .gen-edu::before{
+		width: 110px;
+		height: 110px;
+		left: -55px;
+	}
+
+	.gen-edu .edu-things{
+		left: 3em;
+	}
+
+	.edu-content .gen-edu{
+		height: 150px;
+	}
+
+	.gen-edu .edu-timeline span {
+		font-size: 12px;
+	}
+}
