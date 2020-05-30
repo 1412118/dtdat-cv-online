@@ -1,3 +1,6 @@
+/*!
+* My css
+*/
 .header-wrapper{
 	display: flex;
 	background-color: #fff;
@@ -16,18 +19,17 @@
     justify-content: flex-end;
 }
 
-.header-right-element{
-	padding: 0 0.4em;
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.9);
+    font-weight: 500;
+    padding: 0 0.4em;
 	margin: 0.5em 0.85em;
 }
 
-.header-right-element:hover{
-	background-color: #e3e3e3;
-	transition: background-color 0.3s;
-}
-
-.header-right-element:hover .hr-link{
-	text-decoration: none;
+.navbar-light .navbar-nav .nav-link.active{
+	color: rgba(0,0,0,.3);
+	border-bottom: solid 2px #dc3538;
+    transition: background-color 0.3s;
 }
 
 .header-right-container .hr-link{
@@ -38,8 +40,6 @@
 	text-decoration: none;
 	width: auto;
 }
-
-
 
 .home-wrapper{
 	/*margin-top: 3em;*/
@@ -65,17 +65,6 @@
 	text-transform: uppercase;
 	font-weight: 100;
 }
-
-/*.avatar{
-	margin-top: 120px;
-}
-
-.avatar-img{
-	vertical-align: middle;
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-}*/
 
 .hd-title{
 	color: #e84855;
@@ -110,7 +99,7 @@
 }
 
 .fb{
-	color: #2947d;8
+	color: #2947d8;
 }
 
 .social-list .item .icon-link{
@@ -127,7 +116,8 @@
 }
 
 .fb:hover{
-	background-color: #29487d;
+	/*background-color: #29487d;*/
+	background-color: #007bff;
 	color: #fff;
 	transition: all 0.25s;
 }
@@ -169,7 +159,7 @@
 }
 
 .sub-hd{
-	padding: 2em 0;
+	padding: 4em 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -183,17 +173,6 @@
  	position: relative;
 }
 
-/*.fas::after {
-	content: '';
-	display: inline-block;
-	width: 11.9em;
-    height: 2px;
-    background: #bababa;
-    margin-top: 27px;
-    position: absolute;
-    left: -261px;
-}*/
-
 .icon-wrapper::before, .icon-wrapper::after {
 	content: '';
 	display: inline-block;
@@ -203,13 +182,6 @@
     vertical-align: middle;
     margin-top: -24px;
 }
-
-/*.fas{
-	position: absolute;
-	left: 46%;
-	top: 57%;
-	color: #969696;
-}*/
 
 .about-me-container .container .row{
 	align-items: center;
@@ -267,19 +239,19 @@
 	/*padding: 18px 45px;*/
 	text-decoration: none;
 	background-color: #e84855;
-	color: white;
+	color: #fff;
 	border-radius: 2.5em;
 	font-size: 20px;
 	font: bold 20px/24px Poppins;
 	font-weight: 700;
   	
-  	background-image: linear-gradient(to top, 
+  	background-image: linear-gradient(to left, 
   		transparent, 
   		transparent 50%,
-  		#54fffa 50%, 
-  		#54fffa);
-    background-position: 100% 100%;
-    background-size: 100% 200%;
+  		#3b323c 50%, 
+  		#3b323c);
+    background-position: 100% 0;
+    background-size: 200% 100%;
     transition: all .25s ease-in;
 }
 
@@ -287,7 +259,7 @@
 	/*background-color: #252525;*/
 	text-decoration: none;
 	background-position: 0 0;
-	color: #333;
+	color: #fff;
 }
 
 .skill-container .container .row{
@@ -339,31 +311,11 @@
 	/*right: 50px;*/
 	width: 35%;
 	font: normal 20px/24px Raleway;
-	/*animation-name: timeline-ani;
-	animation-duration: 3s;
-	animation-fill-mode: forwards;*/
 }
-
-/*@keyframes timeline-ani {
-  from {left: -400px;}
-  to {left: -50px;}
-}*/
 
 .gen-exp .work-exp{
 	width: 70%;
 }
-
-/*.exp-content .work-exp{
-	position: relative;
-	animation-name: work-exp-ani;
-	animation-duration: 3s;
-	animation-fill-mode: forwards;
-}
-
-@keyframes work-exp-ani {
-  from {right: -400px;}
-  to {right: 0px;}
-}*/
 
 .gen-exp .timeline-exp h4{
 	margin: 10px 0;
@@ -427,12 +379,6 @@ span.bold{
 	font-weight: bold;
 	color: #333;
 }
-
-/*.education{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}*/
 
 .edu-content{
 	height: 100%;

@@ -6,26 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Quicksand:wght@300&family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="dist/dist.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.min.css"> -->
     <title>Dương Thành Đạt - CV</title>
   </head>
   <body>
-	<nav class="navbar navbar-expand-lg navbar-light header-wrapper">
+	<nav id="site-navigation" class="navbar navbar-expand-lg navbar-light header-wrapper">
 	  <a class="navbar-brand" href="#">Dat Duong</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	    <div class="navbar-nav ">
-	      <a class="nav-item nav-link header-right-element chars hr-link" href="#">HOME</a>
-	      <a class="nav-item nav-link header-right-element about-me hr-link" href="about-me.html">ABOUT ME</a>
-	      <a class="nav-item nav-link header-right-element skills hr-link" href="#">SKILLS</a>
-	      <a class="nav-item nav-link header-right-element experience hr-link" href="#">EXPERIENCE</a>
-	      <a class="nav-item nav-link header-right-element education hr-link" href="#">EDUCATION</a>
+	    <div class="navbar-nav">
+	      <a class="nav-item nav-link chars hr-link" href="#home">HOME</a>
+	      <a class="nav-item nav-link about-me hr-link" href="#about">ABOUT ME</a>
+	      <a class="nav-item nav-link skills hr-link" href="#skills">SKILLS</a>
+	      <a class="nav-item nav-link experience hr-link" href="#exp">EXPERIENCE</a>
+	      <a class="nav-item nav-link education hr-link" href="#edu">EDUCATION</a>
 	    </div>
 	  </div>
 	</nav>
 
-	<div class="home-wrapper" style="background-image: linear-gradient(90deg, rgba(250,250,250,0), rgba(43,43,43,1)), url('images/home-bg.jpg')">
+	<div id="home" class="home-wrapper" style="background-image: linear-gradient(90deg, rgba(250,250,250,0), rgba(43,43,43,1)), url('images/home-bg.jpg')">
 		<!-- <div class="avatar">
 			<img class="avatar-img" src="./avatar.jpg">
 		</div> -->
@@ -47,7 +51,7 @@
 		</div>
 	</div>
 
-	<div class="about-me-container">
+	<div id="about" class="about-me-container">
 			<div class="sub-hd about-me-hd">
 				<h1 class="sub-title about-title">About me</h1>
 				<span class="icon-wrapper"><i class="fas fa-user-circle fa-3x"></i></span>
@@ -95,7 +99,7 @@
 			</div>
 	</div>
 
-	<div class="skill-container">
+	<div id="skills" class="skill-container">
 		<div class="sub-hd skill-hd">
 			<h1 class="sub-title skill-title">skills</h1>
 			<span class="icon-wrapper"><i class="fas fa-cog fa-3x"></i></i></span>
@@ -137,7 +141,7 @@
 		<div class="space"></div>
 	</div>
 
-	<div class="experience-container">
+	<div id="exp" class="experience-container">
 		<div class="sub-hd exp-hd">
 			<h1 class="sub-title exp-title">Experience</h1>
 			<span class="icon-wrapper"><i class="fas fa-business-time fa-3x"></i></span>
@@ -196,7 +200,7 @@
 		</div>
 	</div>
 
-	<div class="education-container">
+	<div id="edu" class="education-container">
 		<div class="sub-hd edu-hd">
 			<h1 class="sub-title edu-title">Education</h1>
 			<span class="icon-wrapper"><i class="fas fa-user-graduate fa-3x"></i></span>
