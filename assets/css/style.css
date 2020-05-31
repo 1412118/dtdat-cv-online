@@ -269,7 +269,7 @@
 .content{
 	background-color: #f1f2f7;
 	box-shadow: 10px 10px 3px rgba(0,0,0,.07) !important;
-	padding: 0 1em;
+	padding: 1em 1em 0;
 	margin: 0 1em;
 	width: 100%;
 }
@@ -378,6 +378,10 @@
 span.bold{
 	font-weight: bold;
 	color: #333;
+}
+
+.experience-container .spacer{
+	height: 2em;
 }
 
 .edu-content{
