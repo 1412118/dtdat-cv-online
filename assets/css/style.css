@@ -464,7 +464,7 @@ span.bold{
 
 .gen-edu:hover .edu-timeline{
 	/*box-shadow: 0 0 0 6px #fff, 0 0 0 8px #e84855;*/
-    transform: rotateY(180deg);
+    transform: rotateY(-180deg);
 	transition: all 0.5s;
 }
 
