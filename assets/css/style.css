@@ -3,13 +3,13 @@
 */
 .header-wrapper{
 	display: flex;
-	background-color: #fff;
+	background-color: transparent;
 	height: 4em;
 	width: 100%;
 	position: fixed;
 	/*left: 0;*/
 	z-index: 1;
-	box-shadow: 0.1em 0.15em 0.2em rgba(0,0,0,.07) !important;
+	/*box-shadow: 0.1em 0.15em 0.2em rgba(0,0,0,.07) !important;*/
 	/*box-shadow: 0px 0px 8px #efefef;*/
     transition: all .5s linear;
 }
@@ -17,6 +17,10 @@
 .navbar-nav {
     width: 100%;
     justify-content: flex-end;
+}
+
+.navbar .navbar-brand{
+	color: #fff;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -30,6 +34,16 @@
 	color: rgba(0,0,0,.3);
 	border-bottom: solid 2px #dc3538;
     transition: background-color 0.3s;
+}
+
+.nav-sticky {
+    background-color: #fff;
+    box-shadow: 0px 0px 8px #efefef;
+    transition: all .5s linear;
+}
+
+.nav-sticky .navbar-brand{
+	color: rgba(0,0,0,.9);
 }
 
 .header-right-container .hr-link{
@@ -53,17 +67,25 @@
 }
 
 .home-wrapper .home-content{
-	width: 50%;
+	width: 70%;
 	position: relative;
-	top: 40%;
-	left: 5%;
+	top: 37%;
+	left: 10%;
 }
 
 .site-title{
 	text-align: left;
 	font-family: 'Quicksand', sans-serif;
 	text-transform: uppercase;
-	font-weight: 100;
+}
+
+.site-title .site-name, .site-title .site-slogan{
+	font-weight: 900;
+	color: #fff;
+}
+
+.site-title .site-name{
+	font-size: 3.5rem;
 }
 
 .hd-title{
@@ -129,6 +151,7 @@
 	opacity: 1;
 	overflow: visible;
 	transition: all 0.25s;
+	color: #fff;
 }
 
 .gh{
@@ -357,7 +380,7 @@
 
 .gen-exp:hover .timeline-exp .circle{
 	box-shadow: 0 0 0 6px #fff, 0 0 0 8px #e84855;
-    transform: rotateY(180deg);
+    transform: rotateY(-180deg);
 	transition: all 0.5s;
 }
 

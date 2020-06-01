@@ -129,6 +129,7 @@ function pulse(a) {
 window.addEventListener("mousewheel", wheel, !1);
 })();
 
+//smooth scrolling when clicking navigation bar element
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -139,6 +140,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+//change color when clicking navigation bar element
 var header = document.getElementById("navbarNavAltMarkup");
 var btns = header.getElementsByClassName("nav-item");
 for (var i = 0; i < btns.length; i++) {
@@ -150,3 +152,13 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
+
+//display color for navigation bar when scroll down
+$(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+      if (scroll > 0) {
+         $(".header-wrapper").addClass("nav-sticky");
+      } else {
+         $(".header-wrapper").removeClass("nav-sticky");
+      }
+   })
