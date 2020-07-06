@@ -419,17 +419,17 @@ span.bold{
 .edu-content .gen-edu{
 	display: flex;
 	flex-direction: row;
-	width: 70%;
-	height: 250px;
+	width: 90%;
+	height: 20em;
 	border-radius: 6px;
 	background-color: #f1f2f7;
 	align-items: center;
 	position: relative;
-	margin: 0 0 2em 0;
+	margin: 2em 0;
 	transition: all 1s;
 }
 
-.edu-content .gen-edu::before{
+/* .edu-content .gen-edu::before{
 	content: '';
 	width: 190px;
 	height: 190px;
@@ -437,7 +437,7 @@ span.bold{
 	background-color: #fff;
 	position: absolute;
 	left: -95px;
-}
+} */
 
 .gen-edu .edu-timeline h2, .gen-edu .edu-timeline span{
 	display: flex;
@@ -458,6 +458,7 @@ span.bold{
 	height: 180px;
 	width: 180px;
 	border-radius: 50%;
+	border: 5px solid #fff;
 	position: absolute;
   	left: -90px;
 	transition: all 0.5s ease-in-out;
@@ -491,12 +492,13 @@ span.bold{
 	transition: all 0.5s;
 }
 
-.gen-edu:hover{
+/* .gen-edu:hover{
 	box-shadow: 10px 10px 3px rgba(0,0,0,.07) !important;
 	transition: all 1s;
-}
+} */
 
 .gen-edu .edu-things{
 	position: absolute;
 	left: 7em;
+	padding: 1em;
 }
