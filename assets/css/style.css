@@ -164,6 +164,16 @@
 	transition: all 0.25s;
 }
 
+.in{
+	color: #283e4a;
+}
+
+.in:hover{
+	background-color: #0073b1;
+	color: #fff;
+	transition: all 0.25s;
+}
+
 .about-me-container{
 	/*display: flex;
 	flex-direction: row;
